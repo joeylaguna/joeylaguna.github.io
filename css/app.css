@@ -1,1 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #2a303b;
+  color: #E6E6E6;
+  font-family: "Proxima Nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	line-height: 1.6em;
+}
 
+#wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.heading{
+  text-align: left;
+  padding-top: 20px;
+}
+
+p {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+h1{
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+h3 {
+  padding-top: 0;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.social{
+  padding-top: 30px;
+}
+
+.social a{
+  padding-right: 10px;
+}
