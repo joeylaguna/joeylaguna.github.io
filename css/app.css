@@ -9,8 +9,8 @@
 }
 
 #wrapper{
-  width: 400px;
-  margin: 0 auto;
+  padding: 10% 15% 0;
+  width: 100%;
 }
 
 .heading{
@@ -30,6 +30,7 @@ h1{
 }
 
 h3 {
+  color: #9C9C9C;
   padding-top: 0;
   letter-spacing: 3px;
   font-weight: 300;
