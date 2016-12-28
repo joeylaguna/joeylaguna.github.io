@@ -42,9 +42,6 @@ h3 {
 .brand-tagline {
     margin: 0;
 }
-.brand-title {
-    text-transform: uppercase;
-}
 .brand-tagline {
     font-weight: 300;
     color: rgb(176, 202, 219);
@@ -97,6 +94,11 @@ h3 {
     color: #222;
     margin-bottom: 0.2em;
 }
+
+.post-title a {
+    color: #222;
+}
+
 .post-avatar {
     border-radius: 50px;
     float: right;
@@ -111,6 +113,10 @@ h3 {
     color: #999;
     font-size: 90%;
     margin: 0;
+}
+
+.post-meta a {
+    color: #999;
 }
 
 .post-category {
