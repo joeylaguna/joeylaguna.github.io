@@ -1,0 +1,50 @@
+p {
+  font-family: 'Arimo', sans-serif;
+}
+
+h4 {
+	font-family: 'Arimo', sans-serif !important;
+}
+
+h5 {
+	font-family: 'Arimo', sans-serif !important;
+}
+
+.headerInfo {
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.headShot {
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+}
+
+.info {
+  text-align: left;
+  max-width: 650px;
+  padding: 10px;
+  margin: auto;
+}
+
+.projects {
+  padding-bottom: 15px;
+}
+
+.socialIcons {
+  text-align: center;
+}
+
+.projectTitle {
+  margin-bottom: 0px;	
+}
+
+.projectSubtitle {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.socialIcons a {
+  color: black;
+}
