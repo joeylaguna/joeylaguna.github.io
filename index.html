@@ -28,6 +28,12 @@
             
           // track pageview
           woopra.track();
+
+          document.getElementById('bento').onClick = () => {
+            woopra.track();
+          }
+
+
         </script>
     </head>
     <body>
@@ -44,37 +50,37 @@
                 <div class='projects'>
                     <h4>Projects</h4>
                     <div class='projectInfo'>
-                        <h5 class='projectTitle'><a href="http://www.bentoboard.co" target="_blank">Bento</a></h5>
+                        <h5 class='projectTitle'><a id='bento' href="http://www.bentoboard.co" target="_blank">Bento</a></h5>
                         <p class='projectSubtitle'>Card based modular productivity application</p>
                         <p class='projectDescription'>Bento is a modular productivity application utilizing a card-based dashboard of tools to optimize a user's workflow.</p>
-                        <p>Check out the <a href="https://github.com/HR-Dwarves/Bento" target="_blank">code</a>.</p>
+                        <p>Check out the <a id='bentoGH' href="https://github.com/HR-Dwarves/Bento" target="_blank">code</a>.</p>
                     </div>
                     <div class='projectInfo'>
                         <h5 class='projectTitle'>Legislation Watch</h5>
                         <p class='projectSubtitle'>Discover and track your local legislation</p>
                         <p class='projectDescription'>Legislation Watch's main goal is to be accessible, so each bill is categorized and indexed to allow for easy search and filtering.</p>
-                        <p>Check out the <a href="https://github.com/teamPupAndSuds/Legislation-Watch" target="_blank">code</a>.</p>
+                        <p>Check out the <a id='lwGH' href="https://github.com/teamPupAndSuds/Legislation-Watch" target="_blank">code</a>.</p>
                     </div>
                     <div class='projectInfo'>
                         <h5 class='projectTitle'>Rippl</h5>
                         <p class='projectSubtitle'>Sentiment analysis for the effect your tweets make</p>
                         <p class='projectDescription'>Guide your Twitter presence with Sentiment Analysis. Rippl offers a lightweight and responsive format for you to check your own as well as other people's positivity.</p>
-                        <p>Check out the <a href="https://github.com/teamPupAndSuds/Rippl" target="_blank">code</a>.</p>
+                        <p>Check out the <a id='ripplGH' href="https://github.com/teamPupAndSuds/Rippl" target="_blank">code</a>.</p>
                     </div>
                 </div>
                 <div class='socialIcons'>
                     <div class='row'>
                         <div class='col'>
-                            <a href="http://www.linkedin.com/in/joeylaguna" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a id='resume' href="http://www.linkedin.com/in/joeylaguna" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                         <div class='col'>
-                            <a href="http://www.github.com/joeylaguna" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                            <a id='gh' href="http://www.github.com/joeylaguna" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
                         </div>
                         <div class='col'>
-                            <a href="http://www.twitter.com/joey_laguna" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a id='twitter' href="http://www.twitter.com/joey_laguna" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                         <div class='col'>
-                            <a href="files/JoeyLagunaResume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                            <a id='resume' href="files/JoeyLagunaResume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
